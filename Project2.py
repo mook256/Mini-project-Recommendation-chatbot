@@ -32,8 +32,6 @@ URI = "neo4j://localhost"
 AUTH = ("neo4j", "Mook2024")  # เปลี่ยนรหัสผ่านตามต้องการ
 driver = GraphDatabase.driver(URI, auth=AUTH) 
 Model="sentence-transformers/distiluse-base-multilingual-cased-v2"
-
-
 # ====================
 # การตั้งค่า ngrok
 # ====================
